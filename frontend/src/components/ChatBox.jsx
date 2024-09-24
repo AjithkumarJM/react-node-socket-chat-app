@@ -10,7 +10,8 @@ import {
 } from "@chakra-ui/react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000");
+// const socket = io("http://localhost:4000");
+const socket = io("https://my-chat-rh6y8gknn-ajithkumar-j-ms-projects.vercel.app/");
 
 const ChatBox = () => {
   const [messages, setMessages] = useState([]);
